@@ -1,0 +1,147 @@
+{
+  "cases": {
+    "C1": {
+      "adjacent": [
+        "C2"
+      ]
+    },
+    "C2": {
+      "adjacent": [
+        "C1",
+        "C3"
+      ]
+    },
+    "C3": {
+      "adjacent": [
+        "C2"
+      ]
+    },
+    "C4": {
+      "adjacent": []
+    }
+  },
+  "artifacts": [
+    {
+      "id": "A1",
+      "case": "C1",
+      "temp_max": 22.0,
+      "rh_max": 60.0
+    },
+    {
+      "id": "A2",
+      "case": "C2",
+      "temp_max": 20.0,
+      "rh_max": 55.0
+    },
+    {
+      "id": "A3",
+      "case": "C3",
+      "temp_max": 24.0,
+      "rh_max": 65.0
+    },
+    {
+      "id": "A4",
+      "case": "C4",
+      "temp_max": 22.0,
+      "rh_max": 60.0
+    }
+  ],
+  "stream": [
+    {
+      "type": "monitor",
+      "round": 1,
+      "case": "C1",
+      "temp": 21.0,
+      "humidity": 55.0
+    },
+    {
+      "type": "monitor",
+      "round": 1,
+      "case": "C1",
+      "temp": 24.0,
+      "humidity": 62.0
+    },
+    {
+      "type": "monitor",
+      "round": 1,
+      "case": "C2",
+      "temp": 23.0,
+      "humidity": 58.0
+    },
+    {
+      "type": "monitor",
+      "round": 1,
+      "case": "C3",
+      "temp": 22.0,
+      "humidity": 60.0
+    },
+    {
+      "type": "monitor",
+      "round": 1,
+      "case": "C9",
+      "temp": 20.0,
+      "humidity": 50.0
+    },
+    {
+      "type": "monitor",
+      "round": 2,
+      "case": "C1",
+      "temp": 23.0,
+      "humidity": 61.0
+    },
+    {
+      "type": "monitor",
+      "round": 2,
+      "case": "C2",
+      "temp": 21.0,
+      "humidity": 57.0
+    },
+    {
+      "type": "monitor",
+      "round": 2,
+      "case": "C3",
+      "temp": 25.0,
+      "humidity": 66.0
+    },
+    {
+      "type": "move",
+      "artifact": "A2",
+      "case": "C3"
+    },
+    {
+      "type": "monitor",
+      "round": 3,
+      "case": "C1",
+      "temp": 21.0,
+      "humidity": 55.0
+    },
+    {
+      "type": "monitor",
+      "round": 3,
+      "case": "C2",
+      "temp": 19.0,
+      "humidity": 50.0
+    },
+    {
+      "type": "monitor",
+      "round": 3,
+      "case": "C3",
+      "temp": 23.0,
+      "humidity": 64.0
+    },
+    {
+      "type": "monitor",
+      "round": 4,
+      "case": "C3",
+      "temp": 22.0,
+      "humidity": 60.0
+    },
+    {
+      "type": "monitor",
+      "round": 4,
+      "case": "C4",
+      "temp": 22.0,
+      "humidity": 58.0
+    }
+  ]
+}
