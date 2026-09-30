@@ -1,0 +1,11 @@
+{
+  "matters": [
+    {"name": "出生公证", "materials": ["身份证", "出生医学证明"]}
+  ],
+  "applications": [
+    {"id": "B1", "matter": "出生公证", "applicant": "小明", "date": "2026-05-01", "materials": ["身份证"]}
+  ],
+  "corrections": [
+    {"application": "B1", "date": "2026-05-10", "materials": ["出生医学证明"]}
+  ]
+}
