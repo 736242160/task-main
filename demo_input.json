@@ -1,0 +1,32 @@
+{
+  "overtemp_threshold": 3,
+  "batches": [
+    {"id": "B1", "variety": "赤霞珠", "target_quality": "特级"},
+    {"id": "B2", "variety": "美乐",   "target_quality": "一级"}
+  ],
+  "processes": [
+    {"name": "破碎",       "temp_min": 10, "temp_max": 20, "deps": [],                 "min_quality": "等外"},
+    {"name": "发酵",       "temp_min": 24, "temp_max": 28, "deps": ["破碎"],           "min_quality": "三级"},
+    {"name": "倒罐",       "temp_min": 15, "temp_max": 20, "deps": [],                 "min_quality": "等外"},
+    {"name": "陈酿",       "temp_min": 12, "temp_max": 16, "deps": ["发酵", "倒罐"],   "min_quality": "二级"},
+    {"name": "橡木桶陈酿", "temp_min": 13, "temp_max": 15, "deps": ["陈酿"],           "min_quality": "特级"},
+    {"name": "灌装",       "temp_min": 10, "temp_max": 14, "deps": ["橡木桶陈酿"],     "min_quality": "特级"},
+    {"name": "贴标",       "temp_min": 10, "temp_max": 25, "deps": ["灌装"],           "min_quality": "特级"}
+  ],
+  "events": [
+    {"batch": "B1", "process": "破碎", "temp": 15},
+    {"batch": "B1", "process": "发酵", "temp": 25},
+    {"batch": "B1", "process": "倒罐", "temp": 18},
+    {"batch": "B1", "process": "发酵", "temp": 26},
+    {"batch": "B9", "process": "破碎", "temp": 15},
+    {"batch": "B1", "process": "澄清", "temp": 15},
+    {"batch": "B1", "process": "灌装", "temp": 12},
+    {"batch": "B1", "process": "陈酿", "temp": 16.5},
+    {"batch": "B1", "process": "橡木桶陈酿", "temp": 15.8},
+    {"batch": "B1", "process": "灌装", "temp": 14.5},
+    {"batch": "B1", "process": "贴标", "temp": 20},
+    {"batch": "B2", "process": "破碎", "temp": 12},
+    {"batch": "B2", "process": "发酵", "temp": 19},
+    {"batch": "B2", "process": "倒罐", "temp": 18}
+  ]
+}
