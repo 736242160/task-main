@@ -1,0 +1,20 @@
+{
+  "members": [
+    {"name": "张三", "quals": ["急救", "攀岩"]},
+    {"name": "李四", "quals": ["急救", "驾驶"]},
+    {"name": "王五", "quals": ["攀岩"]}
+  ],
+  "equipment": [
+    {"name": "绳索包", "weathers": ["晴", "阴"]},
+    {"name": "急救箱", "weathers": ["任意"]}
+  ],
+  "alerts": [
+    {"name": "A1-坠崖", "location": "北坡", "weather": "晴",
+     "quals": ["急救", "攀岩"], "count": 2}
+  ],
+  "dispatches": [
+    {"alert": "A1-坠崖", "members": ["张三", "李四"],
+     "equipment": ["绳索包", "急救箱"]},
+    {"alert": "A1-坠崖", "members": ["王五", "张三"]}
+  ]
+}
