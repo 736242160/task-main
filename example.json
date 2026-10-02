@@ -1,0 +1,25 @@
+{
+  "turbines": [
+    {"name": "T1", "rated_power": 2000, "cut_in": 3.0, "cut_out": 25.0},
+    {"name": "T2", "rated_power": 2000, "cut_in": 3.0, "cut_out": 25.0},
+    {"name": "T3", "rated_power": 1500, "cut_in": 2.5, "cut_out": 20.0}
+  ],
+  "masts": [
+    {"name": "M1", "turbines": ["T1", "T2"]},
+    {"name": "M2", "turbines": ["T1", "T3"]},
+    {"name": "M3", "turbines": ["T9"]}
+  ],
+  "events": [
+    {"time": 1, "wind": {"M1": 10.0, "M2": 10.5}},
+    {"time": 2, "wind": {"M1": 10.0, "M2": 14.0}},
+    {"time": 3, "wind": {"M1": 2.0, "M2": 2.1}},
+    {"time": 4, "wind": {"M1": 26.0, "M2": 26.5}},
+    {"time": 5, "wind": {"M1": 12.0, "M2": 12.0}, "fault": ["T1", "T9"]},
+    {"time": 6, "wind": {"M1": 12.0, "M2": 12.0}},
+    {"time": 7, "wind": {"M1": 12.0, "M2": 12.0}, "repair": ["T1"],
+     "curtail": [{"turbine": "T2", "limit": 1500}, {"turbine": "T2", "limit": 800}, {"turbine": "T8", "limit": 100}]},
+    {"time": 8, "wind": {"M1": 12.0, "M2": 12.0, "M9": 5.0},
+     "curtail": [{"turbine": "T2", "limit": null}]},
+    {"time": 9, "wind": {"M1": 12.0}}
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "steps": [
+    {
+      "time": 1,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 10.0,
+          "status": "运行",
+          "power": 1006.644,
+          "raw_power": 1006.644,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 10.0,
+          "status": "运行",
+          "power": 1006.644,
+          "raw_power": 1006.644,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 10.5,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 3513.288
+    },
+    {
+      "time": 2,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 10.0,
+          "status": "运行",
+          "power": 1006.644,
+          "raw_power": 1006.644,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 10.0,
+          "status": "运行",
+          "power": 1006.644,
+          "raw_power": 1006.644,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 14.0,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 3513.288
+    },
+    {
+      "time": 3,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 2.0,
+          "status": "低于切入风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 2.0,
+          "status": "低于切入风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 2.1,
+          "status": "低于切入风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        }
+      ],
+      "farm_power": 0.0
+    },
+    {
+      "time": 4,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 26.0,
+          "status": "高于切出风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 26.0,
+          "status": "高于切出风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 26.5,
+          "status": "高于切出风速停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        }
+      ],
+      "farm_power": 0.0
+    },
+    {
+      "time": 5,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": null,
+          "status": "故障停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 3500.0
+    },
+    {
+      "time": 6,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": null,
+          "status": "故障停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 3500.0
+    },
+    {
+      "time": 7,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 12.0,
+          "status": "限载运行",
+          "power": 800.0,
+          "raw_power": 2000.0,
+          "limit": 800.0
+        },
+        {
+          "name": "T3",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 4300.0
+    },
+    {
+      "time": 8,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 1500.0,
+          "raw_power": 1500.0,
+          "limit": null
+        }
+      ],
+      "farm_power": 5500.0
+    },
+    {
+      "time": 9,
+      "turbines": [
+        {
+          "name": "T1",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T2",
+          "wind": 12.0,
+          "status": "运行",
+          "power": 2000.0,
+          "raw_power": 2000.0,
+          "limit": null
+        },
+        {
+          "name": "T3",
+          "wind": null,
+          "status": "无测风数据停机",
+          "power": 0.0,
+          "raw_power": null,
+          "limit": null
+        }
+      ],
+      "farm_power": 4000.0
+    }
+  ],
+  "errors": [
+    {
+      "time": "定义",
+      "level": "错误",
+      "message": "测风塔 M3 引用了不存在的风机 T9"
+    },
+    {
+      "time": 2,
+      "level": "错误",
+      "message": "风机 T1 测风数据矛盾（M1=10, M2=14，极差 4.00 m/s 超过阈值 2），按最小风速保守裁决"
+    },
+    {
+      "time": 3,
+      "level": "信息",
+      "message": "风机 T1 风速 2 m/s 低于切入风速 3，停机"
+    },
+    {
+      "time": 3,
+      "level": "信息",
+      "message": "风机 T2 风速 2 m/s 低于切入风速 3，停机"
+    },
+    {
+      "time": 3,
+      "level": "信息",
+      "message": "风机 T3 风速 2.1 m/s 低于切入风速 2.5，停机"
+    },
+    {
+      "time": 4,
+      "level": "信息",
+      "message": "风机 T1 风速 26 m/s 高于切出风速 25，停机"
+    },
+    {
+      "time": 4,
+      "level": "信息",
+      "message": "风机 T2 风速 26 m/s 高于切出风速 25，停机"
+    },
+    {
+      "time": 4,
+      "level": "信息",
+      "message": "风机 T3 风速 26.5 m/s 高于切出风速 20，停机"
+    },
+    {
+      "time": 5,
+      "level": "信息",
+      "message": "风机 T1 进入故障状态"
+    },
+    {
+      "time": 5,
+      "level": "错误",
+      "message": "故障指令引用了不存在的风机 T9"
+    },
+    {
+      "time": 5,
+      "level": "警告",
+      "message": "风机 T1 处于故障期间，本时刻不发电"
+    },
+    {
+      "time": 6,
+      "level": "警告",
+      "message": "风机 T1 处于故障期间，本时刻不发电"
+    },
+    {
+      "time": 7,
+      "level": "信息",
+      "message": "风机 T1 故障修复，恢复运行"
+    },
+    {
+      "time": 7,
+      "level": "信息",
+      "message": "风机 T2 新增限载 1500 kW，当前生效上限 1500 kW"
+    },
+    {
+      "time": 7,
+      "level": "信息",
+      "message": "风机 T2 新增限载 800 kW，当前生效上限 800 kW"
+    },
+    {
+      "time": 7,
+      "level": "错误",
+      "message": "限载指令引用了不存在的风机 T8"
+    },
+    {
+      "time": 7,
+      "level": "信息",
+      "message": "风机 T2 被限载：理论 2000.0 kW 限制为 800.0 kW"
+    },
+    {
+      "time": 8,
+      "level": "信息",
+      "message": "风机 T2 的全部限载指令已清除"
+    },
+    {
+      "time": 8,
+      "level": "错误",
+      "message": "运行流引用了不存在的测风塔 M9"
+    },
+    {
+      "time": 9,
+      "level": "警告",
+      "message": "测风塔 M2 本时刻无风速数据（影响风机 T1）"
+    },
+    {
+      "time": 9,
+      "level": "警告",
+      "message": "测风塔 M2 本时刻无风速数据（影响风机 T3）"
+    },
+    {
+      "time": 9,
+      "level": "错误",
+      "message": "风机 T3 无任何可用测风数据，按停机处理"
+    }
+  ]
+}
